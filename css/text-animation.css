@@ -1,0 +1,31 @@
+@-webkit-keyframes svg-text-anim {
+  40% {
+     stroke-dashoffset: 0;
+     fill: transparent;
+   }
+   60% {
+     stroke-dashoffset: 0;
+     fill: #3486bd;
+   }
+   100% {
+     stroke-dashoffset: 0;
+     fill: #3486bd;
+   }
+   
+}
+/* Most browsers */
+@keyframes svg-text-anim {
+  40% {
+     stroke-dashoffset: 0;
+     fill: transparent;
+   }
+   60% {
+     stroke-dashoffset: 0;
+     fill: #3486bd;
+   }
+   100% {
+     stroke-dashoffset: 0;
+     fill: #3486bd;
+   }
+   
+}
