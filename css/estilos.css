@@ -4,7 +4,6 @@
 
 body {
 	font-family: 'Roboto', sans-serif;
-	background: #E5E5E5;
 	font-size: 20px;
 }
 
@@ -176,12 +175,6 @@ main {
 * {
   margin: 0;
   padding: 0;
-}
-
-body {
-  font-family: montserrat, sans-serif;
-  width: 100%;
-  min-height: 100vh;
 }
 
 .card {
