@@ -62,8 +62,7 @@ section{
   background:var(--gradient4);
   -webkit-background-clip: text;
   background-clip: text;
-  padding:0 1rem;
-  padding-top: 2.5rem;
+  padding: 1em;
   text-align: center;
   font-size: 4rem;
   text-transform: uppercase;

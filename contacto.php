@@ -121,8 +121,7 @@
 
         <div class="box">
             <h3>Orientacion y Asistencia Psicopedgógica</h3>
-            <p>
-            </p>
+            <a href="registros.php" target="_blank">Administrator</a>
         </div>
 
         <div class="box">
