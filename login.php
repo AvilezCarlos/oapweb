@@ -48,10 +48,9 @@ if (isset($_POST['submit'])) {
 
 	<link rel="stylesheet" type="text/css" href="css/style2.css">
     <link rel="stylesheet" href="css/style.css">
-	<link rel="icon" href="images/leer.png">
-    
 
 	<title>Login</title>
+	<link rel="icon" href="images/leer.png">
 </head>
 <body>
 	<div class="container">
