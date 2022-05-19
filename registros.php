@@ -49,19 +49,10 @@ $usuarios=$resultado->fetchAll(PDO::FETCH_ASSOC);
         </svg>
     </div>
 
-    <div id="menu" class="fas fa-bars"></div>
-
-    <nav class="navbar">
-        <a href="index.html">INICIO</a>
-        <a href="servicios.html">MATERIAL</a>
-        <a href="guia.html">PSICOPEDAGOGOS</a>
-        <a href="contacto.php">CONTACTANOS</a>
-    </nav>
-
 </header>
 
 <h1 class="heading"> Registros </h1>
-      
+    <h3 class="text-center"><a href="logout.php">Logout</h3></a>
     <h3 class="text-center">Se muestras todos los registros disponibles</h3>
     
     <div class="container">
@@ -85,7 +76,10 @@ $usuarios=$resultado->fetchAll(PDO::FETCH_ASSOC);
                         <td><?php echo $usuario['Nombre']?></td>
                         <td><?php echo $usuario['Asunto']?></td>
                         <td><?php echo $usuario['Email']?></td>
-                        <td><?php echo $usuario['Telefono']?></td>
+                        
+                        <td><a href="https://wa.me/521<?php echo $usuario['Telefono']?>">
+                        <?php echo $usuario['Telefono']?></a></td>
+
                         <td><?php echo $usuario['Fecha']?></td>
                     </tr>
                     <?php
@@ -112,7 +106,7 @@ $usuarios=$resultado->fetchAll(PDO::FETCH_ASSOC);
     </script>
     <script type="text/javascript">
         function zoom() {
-            document.body.style.zoom = "150%" 
+            document.body.style.zoom = "100%" 
         }
     </script>
 
