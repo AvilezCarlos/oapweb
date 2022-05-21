@@ -2,10 +2,14 @@
 
 class Conexion{	  
     public static function Conectar() {   
-        $localhost = "bsyffxelnsbjnvlulpoq-mysql.services.clever-cloud.com";
+    $localhost = "bsyffxelnsbjnvlulpoq-mysql.services.clever-cloud.com";
     $username = "ujznk78nqdfxhadg";
     $password = "FjcUrjdT37vwK82JTm4l";
     $database = "bsyffxelnsbjnvlulpoq";
+    /*$localhost = "localhost";
+    $username = "root";
+    $password = "";
+    $database = "oap";*/
         define('servidor', $localhost);
         define('nombre_bd', $database);
         define('usuario', $username);
